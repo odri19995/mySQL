@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS b1;
+
+CREATE DATABASE b1;
+
+USE b1;
+
+CREATE TABLE article(
+  title CHAR(200),
+  `body` TEXT
+);
+
+ALTER TABLE article ADD id INT FIRST
+
+SELECT *
+FROM article;
